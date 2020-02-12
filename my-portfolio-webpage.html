@@ -24,21 +24,46 @@
       float: none;
       border-image-width: 0px;
     }
+    img {
+      vertical-align: middle;
+      border-style: none;
+    }
     .sidebar {
       width: inherit;
       float: none;
       background-color: pink;
     }
-</style>
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+      .card-img-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1.25rem;
+      }
+      .card-footer {
+        padding: 0.75rem 1.25rem;
+        background-color: rgba(0, 0, 0, 0.03);
+        border-top: 1px solid rgba(0, 0, 0, 0.125);
+      }
+      </style>
 
       <img src="pic.jpg"alt="a photo of me"
+      img {
+        vertical-align: middle;
+        border-style: none;
+      }
      <h1> <p>Here is a list of some of <strong>my personal projects</strong>!</p></h1>
       <ul>
         <li>my first webpage</li>
         <li>my favourite things.html</li>
         <p>Here is a link to my <a href="my-favourite-things.html/">favourite things </a>.</p>
         <li>hello-world.html</li>
-        <p>My name is Joy Anne Wairimu Kamau.I just completed my high school studies at Moi Girls High School Kamangu. I then applied to study at Moringa school in order to quench my thirst for computer programming. It is for a fact that I love technology and I have always wanted to be a programmer.</p> 
+        <p>My name is Joy Anne Wairimu Kamau.I just completed my high school studies at Moi Girls High School Kamangu. I then applied to study at Moringa school in order to quench my thirst for computer programming. It is for a fact that I love technology and I have always wanted to be a programmer.</p>
         <h2> My interesting facts</h2>
         <p>Well, just like any other being, I have somethings that I find interesting and I can do the all day.They include;</p>
         <ol>
