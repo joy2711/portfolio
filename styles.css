@@ -1,0 +1,18 @@
+body{
+    background-color: blueviolet;
+    background-size: auto;
+    justify-content: center;
+}
+nav ul li{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background-color: darkorange;
+    font-size: 25px;
+    display: inline;
+
+}
+footer{
+    justify-content: center;
+    background-color: darkgray;
+}
